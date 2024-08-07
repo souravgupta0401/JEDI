@@ -2,7 +2,7 @@ package com.flipkart.business;
 
 import com.flipkart.utils.Courses;
 
-public class Professor {
+public class ProfessorBusiness {
     public static boolean selectCourses(Courses temp){
         System.out.println(" selected course"+temp.getName());
         return true;
